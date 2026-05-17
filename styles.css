@@ -1,11 +1,11 @@
 :root {
-  --bg: #f7f4ef;
-  --text: #1e1e1e;
-  --muted: #63615d;
+  --bg: #f4f1ea;
+  --text: #17212b;
+  --muted: #5f6670;
   --card: #ffffff;
-  --accent: #8b5e34;
-  --accent-dark: #5d3b1d;
-  --border: #ded7cc;
+  --accent: #b2874a;
+  --accent-dark: #102236;
+  --border: #ddd3c4;
 }
 
 * {
@@ -171,7 +171,7 @@ h2 {
   padding: 28px;
   border: 1px solid var(--border);
   border-radius: 24px;
-  box-shadow: 0 20px 45px rgba(40, 28, 15, 0.08);
+  box-shadow: 0 20px 45px rgba(16, 34, 54, 0.10);
 }
 
 .hero-card ul {
@@ -189,7 +189,7 @@ h2 {
 }
 
 .trust-bar div {
-  background: #ede5da;
+  background: #e8dfd1;
   padding: 14px;
   border-radius: 16px;
   text-align: center;
@@ -213,7 +213,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  box-shadow: 0 20px 45px rgba(40, 28, 15, 0.08);
+  box-shadow: 0 20px 45px rgba(16, 34, 54, 0.10);
 }
 
 .portal-banner h2 {
@@ -244,7 +244,7 @@ h2 {
 }
 
 .alt {
-  background: #ede5da;
+  background: #e8dfd1;
   max-width: none;
 }
 
@@ -263,7 +263,7 @@ h2 {
 .gallery-item {
   min-height: 190px;
   border-radius: 22px;
-  background: linear-gradient(135deg, #d5c5b4, #8b5e34);
+  background: linear-gradient(135deg, #c7b18b, #102236);
   display: flex;
   align-items: end;
   padding: 18px;
@@ -365,4 +365,11 @@ input, textarea {
   .hero {
     padding-top: 48px;
   }
+}
+
+
+a[href^="tel"],
+a[href^="mailto"] {
+  color: var(--accent-dark);
+  font-weight: 800;
 }
